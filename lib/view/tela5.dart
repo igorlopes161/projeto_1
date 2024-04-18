@@ -22,7 +22,7 @@ class _Tela5ViewState extends State<Tela5View> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-                'O aplicativo deve possuir uma tela com informações sobre o projeto',
+                'Este aplicativo foi desenvolvido por Igor Henrique. \nTem como intuito facilitar a compra dos usuários. \nPermitindo que eles organizem a compra em listas, adicionem, editem e excluam produtos.',
                 style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -37,7 +37,7 @@ class _Tela5ViewState extends State<Tela5View> {
                 OutlinedButton(
                   onPressed: () {
                     //
-                    // Navegar para Tela 3
+                    // Navegar para Tela 4
                     //
                     Navigator.pop(context);
                   },
@@ -47,11 +47,11 @@ class _Tela5ViewState extends State<Tela5View> {
                 OutlinedButton(
                   onPressed: () {
                     //
-                    // Navegar para Tela 3
+                    // Navegar para Tela 1
                     //
-                    Navigator.pushNamed(context, 't5');
+                    Navigator.pushNamed(context, 't1');
                   },
-                  child: Text('Salvar'),
+                  child: Text('Menu'),
                 ),
               ],
             ),

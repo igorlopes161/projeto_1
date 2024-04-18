@@ -64,8 +64,28 @@ class _Tela3ViewState extends State<Tela3View> {
               },
               child: Text('Salvar'),
               ),
+
+          
+
               ],
             ),
+
+            SizedBox(height: 16.0),
+
+            OutlinedButton(
+              onPressed: () {
+                //
+                // Navegar para Tela sobre
+                //
+
+                Navigator.pushNamed(
+                  context,
+                  't5',
+                );
+              },
+              child: Text('SOBRE'),
+            ),
+
           ],
         ),
       ),
